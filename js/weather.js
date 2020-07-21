@@ -12,7 +12,7 @@ const weatherIcon = document.querySelector('#weatherIcon'),
 // 옵션
 var options = {
     enableHighAccuracy: true,
-    timeout: 2000,
+    timeout: 8000,
     maximumAge: 0
 };
   
@@ -38,7 +38,7 @@ function success(position) {
   
 // 실패 시
 function error(err) {
-    notification.innerHTML = `<p> ${err.message} </p>`;
+    notification.innerHTML = `<p> ${err.message} 정보를 불러오지 못했습니다. </p>`;
     console.warn('ERROR(' + err.code + '): ' + err.message);
 };
   
