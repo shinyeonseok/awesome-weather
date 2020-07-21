@@ -21,7 +21,6 @@
     top: 50%;
     left: 50%;
     width: 100%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 a,
@@ -46,8 +45,8 @@ a:hover{
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
-    height: 30px;
-    line-height: 30px;
+    height: 24px;
+    line-height: 24px;
     margin:0;
     text-align: left;
     display: block;
@@ -72,8 +71,8 @@ a:hover{
 
 .sns-wrap {
     position: absolute;
-    right:30px;
-    top:30px;
+    right:20px;
+    top:20px;
     font-size: 0;
 }
 .sns-wrap a .icon {
