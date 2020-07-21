@@ -1,7 +1,7 @@
 'use strict';
 
-// 전역 변수
-const API_KEY = 'ee32fb325d3ebd0b785b47a08aa9cf43';
+// 전역 변수 - api키 발급받아서 사용하기
+const API_KEY = '###############';
 // 변수
 const weatherIcon = document.querySelector('#weatherIcon'),
     weatherTemp = document.querySelector('#weatherTemp'),
